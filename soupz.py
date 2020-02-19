@@ -7,5 +7,4 @@ source = urllib.request.urlopen('http://127.0.0.1:5500/test.html').read()
 soup = bs.BeautifulSoup(source, "lxml")
 
 def result():
-    print(soup.h1)
     print(soup.div)
