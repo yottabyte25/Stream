@@ -15,8 +15,8 @@ root.geometry("800x700")
 
 #Search command
 def search():
-    G = print(soup.div)
-    Gather = Label(root, text = G)
+    div = print(soup.div)
+    Gather = Label(root, text = div)
     Gather.grid()
 #Label
 L1 = Label(root, text = "Item", font = ("bold", 18), padx = 20, pady = 20)
